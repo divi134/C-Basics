@@ -8,8 +8,12 @@ main()
 	{
 		printf("Profit");	
 	}
-	else
+	else if(cp>sp)
 	{
 		printf("Loss");
+	}
+	else
+	{
+	    printf("No profit no loss");
 	}
 }
