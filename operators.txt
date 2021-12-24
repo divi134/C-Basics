@@ -1,0 +1,75 @@
+Operators in C
+1.Arithmetic Operators
++, -, *, /, %
+*, /, %
++, -
+5+4/2*3-1
+5*4/3*2%2
+Expression evaluation, Operator Precedence and Associativity
+Left to right
+Right to left
+2+2/2-->
+
+2.Relational or Comparison Operators
+10 > 4-->1
+10 < 4-->0
+10 >= 4-->1
+10 <= 4-->0
+10 == 4-->0
+10 != 4-->1
+Boolean value:
+True-->1
+False-->0
+
+
+3.Used to combine two or more relational operations 
+&&--> Logical AND
+True, if and only if both left and right operands are true, in any other case false
+
+//--> Logical OR
+False, if and only if both left and right operands or any one of the operand is true, in any other case false
+
+!--> Logical NOT
+Inverse Truth
+!(10<4)
+NOT False-->True
+
+4.Assignment Operators
+Used to assign values to variables
+'=' is the only assignment operator
+a = 10;
+
+Combinational Assignment Operators
++= --> add and assign
+a += 2; //a=12 (here a=10)
+-= --> subtract and assign
+a -= 4; //a=8 (here a=12)
+*= --> multiply and assign
+a *= 4; //a=32 (here a=8)
+/= --> divide and assign (quotient)
+a /= 7; //a=4 (here a=32)
+%= --> divide and assign <remainder)
+a %= 3; //a=1 (here a=4)
+
+5.Decision Making
+Conditional Statements
+if, else, else if, switch
+Simple if statement:
+
+Syntax:
+if(condition)
+{
+       block of statements;
+}   
+
+if(age>18)
+{    
+
+     printf("Enter your age");
+}
+
+
+
+
+
+
