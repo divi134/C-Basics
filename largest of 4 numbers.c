@@ -18,6 +18,6 @@ main()
 	}
 	if(d>a && d>b && d>c)
 	{
-		printf("\n%d");
+		printf("\n%d,d");
 	}
 }
